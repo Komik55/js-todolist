@@ -1,0 +1,33 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    background-color: blanchedalmond;
+}
+.wrap{
+    display: flex;
+    justify-content: center;
+
+}
+#form{
+    display: inline-block;
+    margin-top: 5vmax;
+}
+input[type="checkbox"]{
+    float: left;
+    margin-right: 13px;
+    margin-top: 15px;
+}
+.Btn-close{
+    float: right;
+}
+.active{
+    display: none;
+}
+
